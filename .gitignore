@@ -1,0 +1,16 @@
+node_modules/
+platforms/
+plugins/
+
+# Thumbnails
+._*
+Thumbs.db
+
+# OSX
+*.DS_Store
+
+*.bak
+*.cache
+*.log
+*.swp
+*.user

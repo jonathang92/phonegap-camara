@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="android android-4 android-4-4">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#009688">
+    <!-- Your app title -->
+    <title>Phonegap camara</title>
+    <link rel="stylesheet" href="lib/framework7/css/framework7.material.min.css">
+    <link rel="stylesheet" href="lib/framework7/css/framework7.material.colors.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body class="theme-teal">
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+
+        <!-- Top Navbar. In Material theme it should be inside of the page-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="center">Phonegap camara</div>
+          </div>
+        </div>
+
+        <div class="pages navbar-fixed toolbar-fixed">
+
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+
+            <!-- Scrollable page content -->
+            <div class="page-content">
+              <div class="content-block">
+                  <p class="buttons-row"> 
+                    <a href="grabar.html" class="button button-raised button-fill color-teal">Grabar video</a>
+                    <a href="cargar.html" class="button button-raised button-fill color-teal">Subir Video</a>
+                  </p>
+                  <p class="buttons-row"> 
+                      <a href="#" class="button button-raised button-fill color-red" id="salir">Salir</a>
+                  </p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/template7.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
